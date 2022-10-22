@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 1440px) {
+    .contenedor-bars {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 375px) and (max-width:450px){
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    body {
+        position: relative;
+    }
+    .closed {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 18px;
+        cursor: pointer;
+        transition: all 2s;
+        display: none;
+    }
+    .nav-contenedor {
+        position: absolute;
+        align-self: flex-end;
+        height: 100vh;
+        width: 80%;
+        background-color: hsl(36, 100%, 99%);;
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .contenedor-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+    }
+    .contenedor-ul > li > a {
+        color: hsl(240, 100%, 5%);
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .contenedor-ul > li {
+        margin: 14px;
+    }
+    .contenedor-bars {
+        display: flex;
+    }
+
+    .sesion-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedor-img {
+        width: 100%;
+        height: 350px;
+    }
+    .img {
+        height: 100%;
+        background-position: right;
+    }
+    .contenedor-productos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container-future {
+        padding: 6px;
+        margin: 9px;
+    }
+    .container-leer-mas {
+        width: 100%;
+    }
+    .contenedor-techoologia {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .contenedor-Pcs {
+        display: flex;
+    }
+}

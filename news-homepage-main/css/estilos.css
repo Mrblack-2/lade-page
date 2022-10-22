@@ -1,0 +1,223 @@
+:root {
+    --color-yellow: hsl(35, 77%, 62%);
+    --color-white: hsl(36, 100%, 99%);
+    --color-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 15px;
+}
+
+.contenedor {
+    padding: 10px;
+    width: 100%;
+}
+
+.contenedor-bars {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px; 
+    margin: 10px;
+    cursor: pointer;
+}
+
+.nav-contenedor {
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-texto {
+    margin: 22px;
+    font-size: 45px;
+    padding: 2px;
+}
+.contenedor-ul {
+    display: flex;
+}
+
+.nav-contenedor-a {
+    display: inline-block;
+    margin: 9px;
+    text-decoration: none;
+    align-self: center;
+}
+
+.nav-contenedor-a > a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.sesion-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px;
+    padding: 8px;
+    overflow: hidden;
+    gap: 25px;
+    margin: 25px;
+    grid-auto-columns: 250px;
+    grid-auto-flow: row;
+}
+
+.contenedor-img {
+    grid-column: 1 / 3;
+}
+
+.img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-informacion {
+    grid-row: 1 / 3;
+    grid-column: 3 / 3;
+    padding: 7px;
+    background-color: var(--color-blue);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.section-1 {
+    position: relative;
+}
+
+.texto-1 {
+    color: var(--color-yellow);
+    font-size: 30px;
+    margin: 10px 5px 15px 14px;
+    font-family: sans-serif;
+}
+
+
+.section-1  > p {
+    color: var(--color-white);
+    margin: 5px;
+    font-size: 21px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.section-1 > h4 {
+    color: hsl(236, 13%, 42%);
+    font-size: 11px;
+    margin: 10px 10px 0 15px;
+}
+
+.raya {
+    border: 1px solid hsl(36, 100%, 99%);
+    margin: 30px 10px 0;
+}
+
+.texto-2 {
+    color: var(--color-yellow);
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.section-2 > p {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(236, 13%, 42%);
+}
+
+.section-3 > h1 {
+    color: var(--color-white);
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-3 > p {
+    color: hsl(236, 13%, 42%);
+    font-size: 13px;
+    margin: 9px;
+}
+
+.contenedor-productos {
+    grid-column: 1 / 3;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-leer-mas {
+    padding: 12px;
+    width: 53%;
+}
+
+.container-leer-mas > p {
+    color: var(--color-white);
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+.button {
+    margin: 15px;
+    padding: 16px;
+    width: 50%;
+    background-color:var(--color-blue);
+    border: none;
+    cursor: pointer;
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.container-future {
+    margin: auto;
+    font-size: 40px;
+    color: var(--color-white);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.contenedor-techoologia {
+    grid-column: 1 / 4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+    padding: 7px;
+}
+
+.contenedor-Pcs {
+    display: flex;
+    position: relative;
+}
+
+.container-info-pcs {
+    padding: 8px;
+    align-self: center;
+}
+
+.container-info-pcs > h4  {
+    margin: 10px;
+}
+
+.container-info-pcs > h4, p {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+span {
+    position: absolute;
+    top: 0;
+    margin: 15px;
+    font-size: 25px;
+    color: hsl(236, 13%, 42%);
+}
